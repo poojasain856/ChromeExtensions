@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Procrastination Blocker",
+    "description": "Do you often find yourself losing precious time on distracting websites when you should be working or studying? The Procrastination Blocker is here to help you regain control of your productivity!",
+    "version": "0.1.1",
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["Content.js"]
+      }
+    ],
+    "icons": { "48": "icon48.png", "128": "icon128.png" },
+    "action": {
+      "default_popup": "Popup.html",
+      "default_title": "Procrastination Blocker"
+    },
+    "permissions": [
+        "activeTab",
+        "storage",
+        "webNavigation"
+       
+      ]
+    }

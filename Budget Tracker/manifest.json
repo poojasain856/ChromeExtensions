@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Budget Manager",
+    "version": "1.0",
+    "description": "Track your budget with this Chrome extension.",
+    "permissions": ["storage", "activeTab"],
+    "action": {
+      "default_icon": "logo128.png",
+      "default_popup": "bt.html"
+    },
+    "icons": {
+      "48": "logo128.png",
+      "128": "logo256.png"
+    }
+  }
+  

@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Notepad Extension",
+    "version": "1.0",
+    "description": "A simple notepad extension.",
+    "action": {
+      "default_icon": "logo128.png",
+      "default_popup": "notepad.html"
+    },
+    "icons": {
+      "128": "logo128.png",
+      "256": "logo256.png",
+      "512": "logo512.png"
+    }
+  }
+  

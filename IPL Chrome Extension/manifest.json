@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "IPL Chrome Extension",
+    "description": "Best extension in the world",
+    "version": "1.0",
+    "icons": { "128": "logo128.png" ,"256": "logo256.png" },
+    "action": {
+      "default_icon": "logo128.png",
+      "default_popup": "index.html"
+    },
+    "permissions":["activeTab"]
+    
+  }

@@ -1,0 +1,12 @@
+{
+"name":"Jokes",
+"version":"0.0.1",
+"manifest_version":3,
+
+"icons": { "128": "logo128.png", "256": "logo256.png" ,"512": "logo512.png" },
+"action": {
+      "default_popup": "Popup.html",
+    "default_title": "Jokes"
+  },
+"permissions":["activeTab"]
+}
